@@ -1,0 +1,39 @@
+.container {
+    background-color: #F9E5E0; /* Soft pink */
+    color: #4B3F6B; /* Elegant lavender */
+    font-family: 'Georgia', serif;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, h2, h3 {
+    color: #C493D0; /* Soft cream */
+}
+
+p {
+    line-height: 1.6;
+}
+
+.flower-background {
+    background-image: url('path_to_flower_background_image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    background-color: #F7C6C7; /* Light pink */
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F1A6A8;
+}
